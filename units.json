@@ -20,5 +20,27 @@
     "speed": 0.2,
     "mass": 1.75,
     "maxVelocity": 1.1
+  },
+  {
+    "name": "Draug",
+    "desc": "A primitive mining drone. Cheap to produce. Expendable. Automatically mines copper and lead in the vicinity. Delivers mined resources to the closest core.",
+    "img": "https://mindustrygame.github.io/wiki/images/draug.png",
+    
+    "enemy": false,
+    "health": 80,
+    "speed": 0.3,
+    "mass": 1,
+    "maxVelocity": 1.2
+  },
+  {
+    "name": "Ghoul",
+    "desc": "A heavy carpet bomber. Rips through enemy structures, targeting critical infrastructure.",
+    "img": "https://mindustrygame.github.io/wiki/images/ghoul.png",
+    
+    "enemy": false,
+    "health": 220,
+    "speed": 0.2,
+    "mass": 3,
+    "maxVelocity": 1.4
   }
 ]
