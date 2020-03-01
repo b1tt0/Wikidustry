@@ -86,5 +86,18 @@
     "speed": 0.3,
     "mass": 1.5,
     "maxVelocity": 1.9
+  },
+  
+  
+ {
+    "name": "Reaper",
+    "desc": "*Unknown...*",
+    "img": "https://mindustrygame.github.io/wiki/images/reaper.png",
+    
+    "enemy": true,
+    "health": 11000,
+    "speed": 0.01,
+    "mass": 30,
+    "maxVelocity": 0.6
   }
 ]
