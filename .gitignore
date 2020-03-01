@@ -1,2 +1,6 @@
+# All glitch.com stuff
 *.glitch-assets
 shrinkwrap.yaml
+
+# ENV files that have important data
+*.env
