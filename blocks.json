@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Copper Wall",
+    "desc": "A cheap defensive block. Useful for protecting the core and turrets in the first few waves.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-copper-wall-large.png",
+    "category": "Defense",
+    
+    "health": 320,
+    "size": 1,
+    "buildTime": 0.25,
+    "cost": [["Copper", 6]]
+  },
+  {
+    "name": "Large Copper Wall",
+    "desc": "A cheap defensive block. Useful for protecting the core and turrets in the first few waves. Spans multiple tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-copper-wall-large-large.png",
+    "category": "Defense",
+    
+    "health": 1280,
+    "size": 2,
+    "buildTime": 1,
+    "cost": [["Copper", 24]]
+  },
+  {
+    "name": "Titanium Wall",
+    "desc": "A moderately strong defensive block. Provides moderate protection from enemies.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-titanium-wall-large.png",
+    "category": "Defense",
+    
+    "health": 440,
+    "size": 1,
+    "buildTime": 0.5,
+    "cost": [["Titanium", 6]]
+  },
+  {
+    "name": "Large Titanium Wall",
+    "desc": "A moderately strong defensive block. Provides moderate protection from enemies. Spans multiple tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-titanium-wall-large-large.png",
+    "category": "Defense",
+    
+    "health": 1760,
+    "size": 2,
+    "buildTime": 2,
+    "cost": [["Titanium", 24]]
+  },
+  {
+    "name": "Thorium Wall",
+    "desc": "A strong defensive block. Decent protection from enemies.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-thorium-wall-large.png",
+    "category": "Defense",
+    
+    "health": 800,
+    "size": 1,
+    "buildTime": 0.55,
+    "cost": [["Thorium", 6]]
+  },
+  {
+    "name": "Large Thorium Wall",
+    "desc": "A strong defensive block. Decent protection from enemies. Spans multiple tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-thorium-wall-large-large.png",
+    "category": "Defense",
+    
+    "health": 3200,
+    "size": 2,
+    "buildTime": 2.2,
+    "cost": [["Thorium", 24]]
+  },
+  {
+    "name": "Surge Wall",
+    "desc": "An extremely durable defensive block. Builds up charge on bullet contact, releasing it randomly.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-surge-wall-large.png",
+    "category": "Defense",
+    
+    "health": 920,
+    "size": 1,
+    "buildTime": 0.5,
+    "cost": [["Surge Alloy", 6]]
+  },
+  {
+    "name": "Large Surge Wall",
+    "desc": "An extremely durable defensive block. Builds up charge on bullet contact, releasing it randomly. Spans multiple tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-surge-wall-large-large.png",
+    "category": "Defense",
+    
+    "health": 3680,
+    "size": 2,
+    "buildTime": 2,
+    "cost": [["Surge Alloy", 24]]
+  },
+  {
+    "name": "Plastanium Wall",
+    "desc": "A special type of wall that absorbs electric arcs and blocks automatic power node connections.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-plastanium-wall-large.png",
+    "category": "Defense",
+    
+    "health": 760,
+    "size": 1,
+    "buildTime": 0.79,
+    "cost": [["Metaglass", 2], ["Plastanium", 5]]
+  },
+  {
+    "name": "Large Plastanium Wall",
+    "desc": "A special type of wall that absorbs electric arcs and blocks automatic power node connections. Spans multiple tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-plastanium-wall-large-large.png",
+    "category": "Defense",
+    
+    "health": 3040,
+    "size": 2,
+    "buildTime": 3.17,
+    "cost": [["Metaglass", 8], ["Plastanium", 20]]
+  },
+  {
+    "name": "Phase Wall",
+    "desc": "A wall coated with special phase-based reflective compound. Deflects most bullets upon impact.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-phase-wall-large.png",
+    "category": "Defense",
+    
+    "health": 600,
+    "size": 1,
+    "buildTime": 0.65,
+    "cost": [["Phase Fabric", 6]]
+  },
+  {
+    "name": "Large Phase Wall",
+    "desc": "A wall coated with special phase-based reflective compound. Deflects most bullets upon impact. Spans multiple tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-phase-wall-large-large.png",
+    "category": "Defense",
+    
+    "health": 2400,
+    "size": 2,
+    "buildTime": 2.6,
+    "cost": [["Phase Fabric", 24]]
+  },
+  
+  
+  
+  {
+    "name": "Conveyor",
+    "desc": "Basic item transport block. Moves items forward and automatically deposits them into blocks. Rotatable.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-conveyor-large.png",
+    "category": "Distribution",
+    
+    "health": 45,
+    "size": 1,
+    "buildTime": 0.01,
+    "cost": [["Copper", 1]],
+    
+    "capacity": 4,
+    "speed": 4.2
+  },
+  {
+    "name": "Titanium Conveyor",
+    "desc": "Advanced item transport block. Moves items faster than standard conveyors.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-titanium-conveyor-large.png",
+    "category": "Distribution",
+    
+    "health": 65,
+    "size": 1,
+    "buildTime": 0.04,
+    "cost": [["Copper", 1], ["Lead", 1], ["Titanium", 1]],
+    
+    "capacity": 4,
+    "speed": 10
+  },
+  {
+    "name": "Junction",
+    "desc": "Acts as a bridge for two crossing conveyor belts. Useful in situations with two different conveyors carrying different materials to different locations.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-junction-large.png",
+    "category": "Distribution",
+    
+    "health": 30,
+    "size": 1,
+    "buildTime": 0.1,
+    "cost": [["Copper", 1]],
+    
+    "capacity": 1,
+    "speed": "???"
+  },
+  {
+    "name": "Mass Driver",
+    "desc": "The ultimate item transport block. Collects several items and then shoots them to another mass driver over a long range. Requires power to operate.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-mass-driver-large.png",
+    "category": "Distribution",
+    
+    "health": 360,
+    "size": 3,
+    "buildTime": 5.46,
+    "cost": [["Lead", 125], ["Titanium", 125], ["Thorium", 50], ["Silicon", 75]],
+    
+    "capacity": 120,
+    "speed": "???"
+  },
+  {
+    "name": "Armored Conveyor",
+    "desc": "Moves items at the same speed as titanium conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-armored-conveyor-large.png",
+    "category": "Distribution",
+    
+    "health": 180,
+    "size": 1,
+    "buildTime": 0.06,
+    "cost": [["Metaglass", 1], ["Thorium", 1], ["Plastanium", 1]],
+    
+    "capacity": 4,
+    "speed": 10
+  },
+  {
+    "name": "Bridge Conveyor",
+    "desc": "Advanced item transport block. Allows transporting items over up to 3 tiles of any terrain or building.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-bridge-conveyor-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.08,
+    "cost": [["Copper", 4], ["Lead", 4]],
+    
+    "capacity": 10,
+    "speed": "???"
+  },
+  {
+    "name": "Phase Conveyor",
+    "desc": "Advanced item transport block. Uses power to teleport items to a connected phase conveyor over several tiles.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-phase-conveyor-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.49,
+    "cost": [["Lead", 10], ["Graphite", 10], ["Silicon", 7], ["Phase Fabric", 5]],
+    
+    "capacity": 10,
+    "speed": "???"
+  },
+  {
+    "name": "Sorter",
+    "desc": "Sorts items. If an item matches the selection, it is allowed to pass. Otherwise, the item is outputted to the left and right.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-sorter-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.12,
+    "cost": [["Copper", 2], ["Lead", 2]],
+    
+    "capacity": 1,
+    "speed": "???"
+  },
+  {
+    "name": "Router",
+    "desc": "Accepts items, then outputs them to up to 3 other directions equally. Useful for splitting the materials from one source to multiple targets.\n**__Never use next to production inputs, as they will get clogged by output.__**",
+    "img": "https://mindustrygame.github.io/wiki/images/block-router-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.05,
+    "cost": [["Copper", 3]],
+    
+    "capacity": 1,
+    "speed": "???"
+  },
+  {
+    "name": "Distributor",
+    "desc": "An advanced router. Splits items to up to 7 other directions equally.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-distributor-large.png",
+    "category": "Distribution",
+    
+    "health": 160,
+    "size": 2,
+    "buildTime": 0.08,
+    "cost": [["Copper", 4], ["Lead", 4]],
+    
+    "capacity": 1,
+    "speed": "???"
+  },
+  {
+    "name": "Inverted Sorter",
+    "desc": "Processes items like a standard sorter, but outputs selected items to the sides instead.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-inverted-sorter-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.12,
+    "cost": [["Copper", 2], ["Lead", 2]],
+    
+    "capacity": 1,
+    "speed": "???"
+  },
+  {
+    "name": "Overflow Gate",
+    "desc": "Only outputs to the left and right if the front path is blocked.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-overflow-gate-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.17,
+    "cost": [["Copper", 4], ["Lead", 2]],
+    
+    "capacity": 10,
+    "speed": "???"
+  },
+  {
+    "name": "Underflow Gate",
+    "desc": "The opposite of an overflow gate. Outputs to the front if the left and right paths are blocked.",
+    "img": "https://mindustrygame.github.io/wiki/images/block-underflow-gate-large.png",
+    "category": "Distribution",
+    
+    "health": 40,
+    "size": 1,
+    "buildTime": 0.17,
+    "cost": [["Copper", 4], ["Lead", 2]],
+    
+    "capacity": 10,
+    "speed": "???"
+  }
+ 
+]
