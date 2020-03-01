@@ -42,5 +42,49 @@
     "speed": 0.2,
     "mass": 3,
     "maxVelocity": 1.4
+  },
+  {
+    "name": "Phantom",
+    "desc": "An advanced drone unit. Follows users. Assists in block construction.",
+    "img": "https://mindustrygame.github.io/wiki/images/phantom.png",
+    
+    "enemy": false,
+    "health": 400,
+    "speed": 0.45,
+    "mass": 2,
+    "maxVelocity": 1.9
+  },
+  {
+    "name": "Spirit",
+    "desc": "A modified draug drone, designed for repair instead of mining. Automatically fixes any damaged blocks in the area.",
+    "img": "https://mindustrygame.github.io/wiki/images/spirit.png",
+    
+    "enemy": false,
+    "health": 100,
+    "speed": 0.42,
+    "mass": 1,
+    "maxVelocity": 1.6
+  },
+ {
+    "name": "Titan",
+    "desc": "An advanced, armored ground unit. Attacks both ground and air targets. Equipped with two miniature Scorch-class flamethrowers.",
+    "img": "https://mindustrygame.github.io/wiki/images/titan.png",
+    
+    "enemy": false,
+    "health": 460,
+    "speed": 0.22,
+    "mass": 3.5,
+    "maxVelocity": 0.8
+  },
+ {
+    "name": "Wraith",
+    "desc": "A fast, hit-and-run interceptor unit. Targets power generators.",
+    "img": "https://mindustrygame.github.io/wiki/images/wraith.png",
+    
+    "enemy": false,
+    "health": 75,
+    "speed": 0.3,
+    "mass": 1.5,
+    "maxVelocity": 1.9
   }
 ]
