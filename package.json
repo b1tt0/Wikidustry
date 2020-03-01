@@ -1,0 +1,17 @@
+{
+  "name": "Wikidustry",
+  "version": "0.0.1",
+  "description": "Mindustry Wiki in Discord.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "node-fetch": "^2.6.0",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
