@@ -9,12 +9,12 @@
   
     "health": "Health:",
     "size": "Size:",
-    "buildTime": "Build time:",
-    "powerUsage": "Power usage:",
+    "buildTime": "Build Time:",
+    "powerUsage": "Power Usage:",
     "speed": "Speed:",
     
-    "itemsCapacity": "Items capacity:",
-    "liquidCapacity": "Liquid capacity:"
+    "itemsCapacity": "Items Capacity:",
+    "liquidCapacity": "Liquid Capacity:"
   },
   "walls": {
     "all": "All wall blocks"
@@ -25,11 +25,12 @@
   "units": {
     "all": "All units",
     "mass": "Mass:",
-    "maxVelocity": "Max velocity:",
+    "maxVelocity": "Max Velocity:",
     "status": {
       "name": "Status:",
       "neutral": "Neutral",
-      "enemy": "Enemy"
+      "enemy": "Enemy",
+      "na": "N/A"
     }
   }
 }

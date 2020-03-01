@@ -10,10 +10,10 @@ bot.aliases = new Collection();
 const util = {
   text: require("./text.json"),
   fetch: require("./util/fetch"),
-  blocksUrl: "https://b1tt.glitch.me/extras/mindustry/blocks.json",
+  blocksUrl: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/blocks.json",
   blocks: null,
   
-  unitsUrl: "https://b1tt.glitch.me/extras/mindustry/units.json",
+  unitsUrl: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/units.json",
   units: null
 };
 
@@ -46,6 +46,7 @@ bot.once("ready", () => {
 });
 
 bot.on("message", async msg => {
+  if (msg.content == `<@${bot.user.id}>`) return msg.reply(`${bot.user.username}'s prefix is \`${config.prefix}\`!`)
   if (!msg.content.startsWith(config.prefix)) return;
   if (!msg.guild) return;
   if (msg.author.bot) return;
