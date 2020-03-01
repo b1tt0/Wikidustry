@@ -46,6 +46,12 @@ ${util.text.block.itemsCapacity} **${curr.capacity} items**
       }
       embed.fields[1].value += `**${req[1]} ${reqq}**\t`
     });
+    if (curr.powerUsage) {
+      embed.fields[0].value += (`
+\n\n${util.text.block.powerUsage} **${curr.powerUsage} power units/second**
+      `);
+    }
+    
     return msg.channel.send(embed)
   });
   

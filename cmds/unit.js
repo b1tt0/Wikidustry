@@ -1,7 +1,7 @@
 module.exports.run = async (bot, msg, args, embed, util) => {
-  const block = args.join(" ").toLowerCase();
+  const unit = args.join(" ").toLowerCase();
   
-  if (block === "all") {
+  if (unit == "all") {
     embed.setTitle(util.text.units.all)
       .setDescription(`\u200b`);
     
@@ -13,9 +13,13 @@ module.exports.run = async (bot, msg, args, embed, util) => {
   };
   
   util.units.forEach(curr => {
-    if (block !== curr.name.toLowerCase()) return;
-    let enemy = util.text.units.status.enemy;
-    if (!curr.enemy) enemy = util.text.units.status.neutral;
+    if (unit !== curr.name.toLowerCase()) return;
+    
+    let enemy;
+    if (curr.enemy) enemy = util.text.units.status.enemy;
+    else if (!curr.enemy) enemy = util.text.units.status.neutral;
+    else enemy = util.text.units.status.na;
+    
     embed.setTitle(curr.name)
       .setDescription(curr.desc)
       .setThumbnail(curr.img)
