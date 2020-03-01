@@ -1,0 +1,35 @@
+{
+  "server": {
+    "success": "If you see this message - it means that Wikidustry Discord bot is working and listening to the current port."
+  },
+  "block": {
+    "cost": "Cost",
+    "info": "Info",
+    "invalid": "Block not found! Make sure you typed the right name in!",
+  
+    "health": "Health:",
+    "size": "Size:",
+    "buildTime": "Build time:",
+    "powerUsage": "Power usage:",
+    "speed": "Speed:",
+    
+    "itemsCapacity": "Items capacity:",
+    "liquidCapacity": "Liquid capacity:"
+  },
+  "walls": {
+    "all": "All wall blocks"
+  },
+  "distr": {
+    "all": "All distribution blocks"
+  },
+  "units": {
+    "all": "All units",
+    "mass": "Mass:",
+    "maxVelocity": "Max velocity:",
+    "status": {
+      "name": "Status:",
+      "neutral": "Neutral",
+      "enemy": "Enemy"
+    }
+  }
+}
