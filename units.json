@@ -4,7 +4,7 @@
     "desc": "A ground unit consisting of a stripped-down frame with high explosives strapped on top. Not particular durable. Explodes on contact with enemies.",
     "img": "https://mindustrygame.github.io/wiki/images/crawler.png",
     
-    "enemy": false,
+    "enemy": null,
     "health": 120,
     "speed": 0.28,
     "mass": 1.75,
@@ -15,7 +15,7 @@
     "desc": "The most basic ground mech. Cheap to produce. Overwhelming when used in swarms.",
     "img": "https://mindustrygame.github.io/wiki/images/dagger.png",
     
-    "enemy": false,
+    "enemy": null,
     "health": 130,
     "speed": 0.2,
     "mass": 1.75,
@@ -37,7 +37,7 @@
     "desc": "A heavy carpet bomber. Rips through enemy structures, targeting critical infrastructure.",
     "img": "https://mindustrygame.github.io/wiki/images/ghoul.png",
     
-    "enemy": false,
+    "enemy": null,
     "health": 220,
     "speed": 0.2,
     "mass": 3,
@@ -70,7 +70,7 @@
     "desc": "An advanced, armored ground unit. Attacks both ground and air targets. Equipped with two miniature Scorch-class flamethrowers.",
     "img": "https://mindustrygame.github.io/wiki/images/titan.png",
     
-    "enemy": false,
+    "enemy": null,
     "health": 460,
     "speed": 0.22,
     "mass": 3.5,
@@ -81,7 +81,7 @@
     "desc": "A fast, hit-and-run interceptor unit. Targets power generators.",
     "img": "https://mindustrygame.github.io/wiki/images/wraith.png",
     
-    "enemy": false,
+    "enemy": null,
     "health": 75,
     "speed": 0.3,
     "mass": 1.5,
