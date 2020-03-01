@@ -99,5 +99,27 @@
     "speed": 0.01,
     "mass": 30,
     "maxVelocity": 0.6
+  },
+ {
+    "name": "Lich",
+    "desc": "*Unknown...*",
+    "img": "https://mindustrygame.github.io/wiki/images/lich.png",
+    
+    "enemy": true,
+    "health": 6000,
+    "speed": 0.01,
+    "mass": 20,
+    "maxVelocity": 0.6
+  },
+ {
+    "name": "Eradicator",
+    "desc": "*Unknown...*",
+    "img": "https://mindustrygame.github.io/wiki/images/eradicator.png",
+    
+    "enemy": true,
+    "health": 9000,
+    "speed": 0.12,
+    "mass": 5,
+    "maxVelocity": 0.68
   }
 ]
