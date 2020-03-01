@@ -188,7 +188,9 @@
     "cost": [["Lead", 125], ["Titanium", 125], ["Thorium", 50], ["Silicon", 75]],
     
     "capacity": 120,
-    "speed": "???"
+    "speed": "???",
+    
+    "powerUsage": 105
   },
   {
     "name": "Armored Conveyor",
@@ -230,7 +232,9 @@
     "cost": [["Lead", 10], ["Graphite", 10], ["Silicon", 7], ["Phase Fabric", 5]],
     
     "capacity": 10,
-    "speed": "???"
+    "speed": "???",
+    
+    "powerUsage": 18
   },
   {
     "name": "Sorter",
