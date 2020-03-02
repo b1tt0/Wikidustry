@@ -7,14 +7,19 @@ const { Client, Collection, MessageEmbed } = require("discord.js"),
 bot.commands = new Collection();
 bot.aliases = new Collection();
 
+const links = {
+  blocks: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/blocks.json",
+  units: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/units.json",
+  info: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/.github/README.md"
+};
+
 const util = {
   text: require("./text.json"),
   fetch: require("./util/fetch"),
-  blocksUrl: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/blocks.json",
-  blocks: null,
   
-  unitsUrl: "https://raw.githubusercontent.com/Em1tt/Wikidustry/master/units.json",
-  units: null
+  blocks: null,
+  units: null,
+  info: null
 };
 
 server.get("/", (req, res) => {
@@ -36,8 +41,9 @@ const load = async (dir = "./cmds/") => {
     }
   }
   
-  util.blocks = await util.fetch(util.blocksUrl);
-  util.units = await util.fetch(util.unitsUrl);
+  util.blocks = await util.fetch(links.blocks);
+  util.units = await util.fetch(links.units);
+  util.info = await util.fetch(links.info);
 };
 
 bot.once("ready", () => {
