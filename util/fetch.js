@@ -17,8 +17,8 @@ module.exports = async (url, json = true) => {
   
   let data = "";
   switch (json) {
-    case true: data = await res.json();
-    default: data = await res.text();
+    case true: data = await res.json(); break;
+    default: data = await res.text(); break;
   }
   
   return data;
