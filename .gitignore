@@ -4,3 +4,7 @@ shrinkwrap.yaml
 
 # ENV files that have important data
 *.env
+
+# Ignore blocks and units, as those are not on the server
+blocks.json
+units.json
