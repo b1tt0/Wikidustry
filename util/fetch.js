@@ -4,16 +4,22 @@
 
 const get = require ("node-fetch");
 
-module.exports = async url => {
+module.exports = async (url, json = true) => {
   const res = await get (url, {
     method: "GET",
     compress: true,
     follow: 0,
     headers: {
       "Transfer-Encoding": "chunked",
-      "Content-Type": "application/json",
       "Accept": "*/*"
     }
   });
-  return await res.json();
+  
+  let data = "";
+  switch (json) {
+    case true: data = await res.json();
+    default: data = await res.text();
+  }
+  
+  return data;
 };
