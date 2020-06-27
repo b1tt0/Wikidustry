@@ -5,4 +5,4 @@
 - Handy command aliases
 and much more!
 
-Made by **Em1t** and **b1tt**.
+Made by **b1tt**.
